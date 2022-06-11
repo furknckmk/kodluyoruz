@@ -1,6 +1,15 @@
+const person = [{
+    name: "Adem",
+    age: 25,
+    languages: ["JavaScript", "CSS"],
+  },
+  {
+    name: "Oğuz",
+    age: 33,
+    languages: ["Java", "HTML"],
+    }
+  ];
 
-function greet(who){
-    return 'Hello',who;
-}
+  const activeUsers = person.filter(yeni => yeni.age >30);
 
-greet('Furkan');
+console.log(activeUsers);
