@@ -1,1 +1,3 @@
 # kodluyoruz
+
+www.patika.dev
